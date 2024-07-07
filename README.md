@@ -21,10 +21,8 @@ JavaScript foundation and beyond
 ```json
 {
     "cucumberautocomplete.syncfeatures": "**/*feature",
-    "cucumberautocomplete.steps": [
-        "cypress/support/stepDefinitions/*.spec.js"
-    ],
-    "cucumberautocomplete.customParameters": [ "afterDelay" ],
+    "cucumberautocomplete.steps": ["cypress/support/stepDefinitions/*.spec.js"],
+    "cucumberautocomplete.customParameters": [ "afterDelay" ]
 }
 ```
 

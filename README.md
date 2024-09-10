@@ -1,4 +1,4 @@
-# cypress-api-framework <img align="right" src="https://avatars.githubusercontent.com/u/8908513?s=200&v=4" width="auto" height="70" title='Playwright'/>
+# cypress-api-framework <img align="right" src="https://avatars.githubusercontent.com/u/8908513?s=200&v=4" width="auto" height="70" title='Cypress'/>
 
 ### 🧩Application
 E-Commerce [Swagger](https://www.apicademy.dev/docs/)

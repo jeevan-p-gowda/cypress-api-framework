@@ -18,19 +18,20 @@ JavaScript foundation and beyond
 5. Install Gherkin support VS code [plugin](https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocomplete)
 6. `npm i` - installs all dependencies
 7. Update your VSCode settings.json file
-```json
-{
-    "cucumberautocomplete.syncfeatures": "**/*feature",
-    "cucumberautocomplete.steps": ["cypress/support/stepDefinitions/*.spec.js"],
-    "cucumberautocomplete.customParameters": [ "afterDelay" ]
-}
-```
+    ```json
+    {
+        "cucumberautocomplete.syncfeatures": "**/*feature",
+        "cucumberautocomplete.steps": ["cypress/support/stepDefinitions/*.spec.js"],
+        "cucumberautocomplete.customParameters": [ "afterDelay" ]
+    }
+    ```
 
 ### ⏯️Execution
 1. `npx cypress run` - runs all the tests
 2. `npx cypress run --spec "cypress/e2e/filename.js"` - runs the mentioned test/s
 3. `npx cypress run --config-file config-file-path --spec test-file-path` - run with specific config
 4. `npx cypress run --env TAGS=@productService` - run tagged test
-> If using Windows, execute on Git Bash.
+   
+   > If using Windows, set IDE terminal to Git Bash and execute.
 
 

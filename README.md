@@ -8,7 +8,8 @@ E-Commerce [Swagger](https://www.apicademy.dev/docs/)
 [Postman collection](https://www.apicademy.dev/postman-collection-download). Import the downloaded JSON into Postman.
 
 ### 🏗️Pre-requisite
-JavaScript foundation and beyond
+* JavaScript foundations and beyond
+* Cypress
 
 ### 🛠️Setup
 1. Install [Git Bash](https://git-scm.com/downloads) - for Windows
